@@ -9,8 +9,7 @@ Skin color detection based on Bayesian estimation
 ## 切勿直接复制粘贴
 
 
-图像文件链接
-链接：https://pan.baidu.com/s/1q-trbSAw1kWEE902GTEfzQ 
+链接：https://pan.baidu.com/s/1OY-MNh4w0Px5fa7uMxLWoA 
 提取码：H1WD 
 复制这段内容后打开百度网盘手机App，操作更方便哦
 
