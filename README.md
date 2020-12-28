@@ -65,5 +65,7 @@ test('./hwd1.jpg', hp_c_s, hp_c)
 test('./abc.jpg', hp_c_s, hp_c) 
 运行main.py，在test_output中找到自己的输出图片
 
+## (选做)6.运行Analysis，可得到各个h值的统计图。统计图可以放入到论文中，作为分析材料。
+
 
 
