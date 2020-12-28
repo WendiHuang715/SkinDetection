@@ -8,10 +8,9 @@ Skin color detection based on Bayesian estimation
   ## 仅供交流学习
 ## 切勿直接复制粘贴
 
-
+下载这个压缩包，解压到与py文件所在的文件夹中
 链接：https://pan.baidu.com/s/1OY-MNh4w0Px5fa7uMxLWoA 
 提取码：H1WD 
-复制这段内容后打开百度网盘手机App，操作更方便哦
 
 实验前先下载好项目中所需要用到的包，例如Python，numpy, PIL, cv2等
 安装Python后，在cmd输入指令：
