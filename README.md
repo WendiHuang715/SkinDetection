@@ -93,6 +93,7 @@ Skin color detection based on Bayesian estimation
             cv2.circle(img, (152 * j - 1, 152 * i - 1), 25, (100, 200, 100), 3)
           
 改成：
+
     for i in range(18):
 
         for j in range(24):
