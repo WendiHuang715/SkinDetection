@@ -7,9 +7,18 @@ Skin color detection based on Bayesian estimation
   ## 仅供交流学习##
 ## 切勿直接复制粘贴 ##
 
+实验前先下载好项目中所需要用到的包，例如Python，numpy, PIL, cv2等
+安装Python后，在cmd输入指令：
+# 下载安装numpy指令
+pip install numpy  
+# 下载安装PIL指令
+pip install pillow
+# 下载cv2
+pip install opencv-python
 复现属于自己的作业：
 
-## 1.拍一张手的照片，放入train_dataset中
+
+## 1.拍一张手的照片，放入train_dataset文件夹中
 此项目中照片尺寸皆为3648 * 2736，其他尺寸的照片需要修改一下代码：
 
 以 2736 * 2736 的照片为例（凡是涉及到打点、读点的循环都要按这个修改）
