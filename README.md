@@ -13,8 +13,9 @@ Skin color detection based on Bayesian estimation
 pip install numpy  
 # 下载安装PIL指令
 pip install pillow
-# 下载cv2
+# 下载安装cv2
 pip install opencv-python
+
 复现属于自己的作业：
 
 
