@@ -1,11 +1,18 @@
 # SkinDetection
 Skin color detection based on Bayesian estimation
 
+
 长理模式识别课堂作业
 对图像H值进行贝叶斯判别实现的肤色检测
 
   ## 仅供交流学习
 ## 切勿直接复制粘贴
+
+
+图像文件链接
+链接：https://pan.baidu.com/s/1q-trbSAw1kWEE902GTEfzQ 
+提取码：H1WD 
+复制这段内容后打开百度网盘手机App，操作更方便哦
 
 实验前先下载好项目中所需要用到的包，例如Python，numpy, PIL, cv2等
 安装Python后，在cmd输入指令：
