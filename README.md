@@ -9,17 +9,17 @@ Skin color detection based on Bayesian estimation
 
 复现属于自己的作业：
 
-1.拍一张手的照片，放入train_dataset中
+## 1.拍一张手的照片，放入train_dataset中
 此项目中照片尺寸皆为3648 * 2736，其他尺寸的照片需要修改一下代码：
 
-# 以 2736 * 2736 的照片为例（凡是涉及到打点、读点的循环都要按这个修改）
+以 2736 * 2736 的照片为例（凡是涉及到打点、读点的循环都要按这个修改）
 for i in range(18):# 每行打18个点，你可以把18改成一个能被2736整除的数
      for j in range(18): # 每列打18个点，你可以把18改成一个能被2736整除的数
           cv2.circle(img, (152 * j - 1, 152 * i - 1), 25, (200, 100, 100), 3) # 2736/18 = 152
 
-2.打开point_dot.py, 根据你所上传的照片文件名修改代码，运行代码
+## 2.打开point_dot.py, 根据你所上传的照片文件名修改代码，运行代码
 
-# 以上传照片名为abc.jpg为例，需要修改这几行：
+以上传照片名为abc.jpg为例，需要修改这几行：
 img = cv2.imread('abc.jpg')
 cv2.imwrite('pic5.jpg', img) # 不要跟point_set中已有的照片名字重复就行，这里取名pic5.jpg
 
@@ -35,7 +35,7 @@ for i in range(18):
      for j in range(24):
           cv2.circle(img, (152 * j - 1, 152 * i - 1), 25, (100, 200, 100), 3)
 
-3.打标签：
+## 3.打标签：
 打开打点以后的照片（即本例中的pic5.jpg）,打开skinlabel.py,新建一个list(在本例中取名skinlist5)
 仔细看打点后的照片，凡是绿圆的中心点落在皮肤上的，都要记录到skinlist5中
 （如 第一行第三列的点落在皮肤上，在skinlist中添加元素 [0, 2] ,注意不是 [1, 3]）
@@ -45,7 +45,7 @@ skinlist = [skinlist1, skinlist2, skinlist3, skinlist4]
 变成：
 skinlist = [skinlist1, skinlist2, skinlist3, skinlist4, skinlist5]
 
-4.重新打开point_dot.py， 把循环改回来。
+## 4.重新打开point_dot.py， 把循环改回来。
 由：
 for i in range(18):
      for j in range(24):
@@ -59,7 +59,7 @@ for i in range(18):
          else:
              cv2.circle(img, (152 * j - 1, 152 * i - 1), 25, (100, 200, 100), 3)
              
-5.以上操作都确保正确，在main.py中把最底下main函数中：
+## 5.以上操作都确保正确，在main.py中把最底下main函数中：
 test('./hwd1.jpg', hp_c_s, hp_c)
 改成
 test('./abc.jpg', hp_c_s, hp_c) 
