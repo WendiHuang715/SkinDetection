@@ -19,7 +19,6 @@ def Print_Analysis():
         plt.plot(iIndex[i], a[i])
         plt.xlim(0, len(np.loadtxt(files[i])))
 
-    # 选择ax2
     plt.show()
 
 
