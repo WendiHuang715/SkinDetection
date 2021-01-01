@@ -16,9 +16,7 @@ def Print_Analysis():
         iIndex[i] = np.arange(len(a[i]))
         ax[i] = plt.subplot(2, 2, i+1)
         plt.sca(ax[i])
-         # 绘制红色曲线
         plt.plot(iIndex[i], a[i])
-        # 限制y坐标轴范围
         plt.xlim(0, len(np.loadtxt(files[i])))
 
     # 选择ax2
