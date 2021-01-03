@@ -83,7 +83,7 @@ Skin color detection based on Bayesian estimation
 
     skinlist = [skinlist1, skinlist2, skinlist3, skinlist4, skinlist5]
 
-## 4.重新打开point_dot.py， 把循环改回来。
+## 4.重新打开point_dot.py， 把循环改回来。再次运行point_dot,观察pic5生成的皮肤点是否准确
 由：
 
     for i in range(18):
